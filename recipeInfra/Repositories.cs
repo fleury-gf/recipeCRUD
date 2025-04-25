@@ -229,6 +229,12 @@ namespace recipeInfra.Repositories
                     
                     foreach (var ingredient in recipe.Ingredients)
                     {
+                        // Handle case where ingredientId is 0 but we have a nested ingredient object
+                        if (ingredient.IngredientId == 0 && ingredient.Ingredient != null)
+                        {
+                            ingredient.IngredientId = ingredient.Ingredient.Id;
+                        }
+                        
                         await connection.ExecuteAsync(ingredientSql, new {
                             RecipeId = recipe.Id,
                             IngredientId = ingredient.IngredientId,
