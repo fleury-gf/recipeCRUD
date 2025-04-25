@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recipeAPI", "recipeAPI\recipeAPI.csproj", "{F4800ABA-19A6-481F-9EE6-9987CAB95186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recipeCore", "recipeCore\recipeCore.csproj", "{AAF4C1E7-F98E-4032-A698-61E2666BE2A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recipeInfra", "recipeInfra\recipeInfra.csproj", "{1F04726B-65B5-454B-8CDC-8B3259D7ABB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4800ABA-19A6-481F-9EE6-9987CAB95186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4800ABA-19A6-481F-9EE6-9987CAB95186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4800ABA-19A6-481F-9EE6-9987CAB95186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4800ABA-19A6-481F-9EE6-9987CAB95186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAF4C1E7-F98E-4032-A698-61E2666BE2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAF4C1E7-F98E-4032-A698-61E2666BE2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAF4C1E7-F98E-4032-A698-61E2666BE2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAF4C1E7-F98E-4032-A698-61E2666BE2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F04726B-65B5-454B-8CDC-8B3259D7ABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F04726B-65B5-454B-8CDC-8B3259D7ABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F04726B-65B5-454B-8CDC-8B3259D7ABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F04726B-65B5-454B-8CDC-8B3259D7ABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
